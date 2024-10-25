@@ -1,0 +1,27 @@
+.btn{
+    font-size: 16px;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn-basics{
+    background-color: #444;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-basics:hover{
+    background-color: #333;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.4); 
+
+}
+
+.btn-basics:active{
+    background-color: #222;
+    transform: scale(0.95);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5); 
+
+}
+
